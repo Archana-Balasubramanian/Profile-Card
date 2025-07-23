@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+    <div class="container ">
+        <div class="card1 " id="card_output">
+            <div class="top">
+                <div class="col">
+                    <div class="image">
+                        <img src="IMA-Program1.png" width="400px">
+                    </div>
+                </div>
+                <div class="row m-4">
+                    <label>Name: <span id="name_output"></span></label>
+                    <label>Age: <span id="age_output"></span></label>
+                    <label>Email: <span id="email_output"></span></label>
+                    <label>Phone number: <span id="number_output"></span></label>
+                </div>
+            </div>
+            <div class="middle m-1 pt-3">
+                <h5>skills:</h5>
+                <ul id="skills_output">
+                    <li></li>
+                </ul>
+            </div>
+            <div class="card">
+                <div class="bottom ">
+                    <h5>Project Name:</h5>
+                    <ul>
+                        <li> Meesho Website<span id="meesho_output"></span> <img src="OIP.webp" width="300px"></li>
+                        <br><br>
+                        <li>Register Form<span id="register_output"></span> <img
+                                src="printable-registration-form-template-30.png" width="300px"></li><br><br>
+                        <li>Bootstrap Website<span id="register_output"></span> <img
+                                src="javascript-image-gallery-600x600.jpg" width="300px"></li><br><br>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="card2">
+            <div class="top">
+                <div class="row">
+                    <label>Name:</label>
+                    <input type="text" id="txt_name">
+                    <label>Age:</label>
+                    <input type="number" id="txt_age">
+                    <label>Email:</label>
+                    <input type="email" id="txt_email">
+                    <label>Phone number:</label>
+                    <input type="text" id="txt_number">
+                    <div class="col p-4">
+                        <label>change</label>
+                        <input type="color" id="txt_color">
+                    </div>
+                    <div class="bottom">
+                        <h4>Skills:</h4>
+                        <textarea name="" id="txt_skills" rows="10" cols="40"></textarea>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="bottom">
+                    <h5>Project Name:</h5>
+                    <li>Meesho website</li>
+                    <input type="button" value="submit" oneclick="clicked">
+                    <li>Bootstrap Website</li>
+                    <input type="button" value="submit" oneclick="clicked">
+                    <li>Register Form</li>
+                    <input type="button" value="submit" oneclick="clicked">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
